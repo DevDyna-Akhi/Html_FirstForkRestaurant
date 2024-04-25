@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Google Font Link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font awesome link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>First Fork Restuarant</title>
+  </head>
+  <body>
+    <div id="container">
+      <!------------ Header part start --------------->
+      <header id="header_part">
+        <div id="content_width" class="header_content">
+          <!-- search box -->
+          <div class="search_box">
+            <input type="search" class="search" />
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+          <!-- service hour -->
+          <div class="service_hour">
+            <select name="hour" id="hour">
+              <option value="0">Opens at 11 AM BST</option>
+              <option value="1">Sun: 4:00PM-9:00PM</option>
+              <option value="2">Mon: Closed</option>
+              <option value="3">Tue: 11:00PM-9:00PM</option>
+              <option value="4">Wed: 11:00PM-9:00PM</option>
+              <option value="5">Thu: 11:00PM-9:00PM</option>
+              <option value="6">Fri: 11:00PM-10:00PM</option>
+              <option value="7">Sat: 11:00PM-10:00PM</option>
+            </select>
+          </div>
+          <!-- contact information -->
+          <div class="contact_info">
+            <ul class="contact_icons">
+              <li>
+                <i class="fa-solid fa-phone"></i>
+                <p>+88 02222242561</p>
+              </li>
+              <li>
+                <i class="fa-solid fa-house"></i>
+                <p>House-32, 6C,Banani, Dhaka</p>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa-solid fa-envelope"></i>
+                  <p>info@firstfork.org</p>
+                </a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <!----------------- nav part start --------------->
+      <nav id="nav_part">
+        <div class="nav_content">
+          <!-- logo -->
+          <div class="logo">
+            <a href="#">
+              <img src="/images/logo.png" alt="logo" />
+              <p>First Fork</p>
+            </a>
+          </div>
+          <!-- list part -->
+          <div class="manu_list">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="#">Food</a></li>
+              <li><a href="#">Galleries</a></li>
+              <li><a href="#">Feature</a></li>
+              <li><a href="#">Reviews</a></li>
+            </ul>
+          </div>
+          <!-- cart button -->
+          <div class="cart_btn">
+            <a href="#"> <i class="fa-solid fa-cart-shopping"></i></a>
+          </div>
+        </div>
+      </nav>
+      <!----------------- Banner part start ---------------------->
+      <div id="main" class="banner">
+        <div class="background_overlay">
+          <div class="bnr_content">
+            <h1>30 years of serving the best food</h1>
+            <h1>using freshest ingredients and authentic recipes</h1>
+            <h5>Best Food + Drinks</h5>
+            <div class="order_btn" type="button"><a href="#">Order Now</a></div>
+          </div>
+        </div>
+      </div>
+      <!----------------- Food List start ---------------------->
+      <section id="food">
+        <div class="food_content">
+          <div class="food_header">
+            <h1>Restuarant Manu</h1>
+          </div>
+          <div class="food_list">
+            <div class="food_title">
+              <ul>
+                <li><a href="#fastfood_part">First Food</a></li>
+                <li><a href="#dessert_part">Dessert</a></li>
+                <li><a href="#most_popular">Most Popular</a></li>
+                <li><a href="#salad_part">Salad</a></li>
+                <li><a href="#drinks_part">Drinks</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="food_type">
+            <div class="first_row row-1" id="fastfood_part">
+              <div class="food_img col_1">
+                <div class="image">
+                  <img
+                    src="/images/grilled-beef-burger-with-fries-cheese-tomato-generative-ai.jpg"
+                    alt="burger"
+                  />
+                </div>
+                <div class="details"></div>
+              </div>
+              <div class="food_img col_2">
+                <div class="image">
+                  <img src="/images/BBQ-beef-bacon-pizza.jpg" alt="" />
+                </div>
+                <div class="details"></div>
+              </div>
+              <div class="food_img col_3">
+                <div class="image">
+                  <img
+                    src="/images/Cheesy-Pepperoni-Pizza-800x530.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="details"></div>
+              </div>
+              <div class="food_img col_4">
+                <div class="image">
+                  <img src="/images/tasty-sandwiches-wooden-desk.jpg" alt="" />
+                </div>
+                <div class="details"></div>
+              </div>
+              <div class="food_img col_5">
+                <div class="image">
+                  <img
+                    src="/images/big-sandwich-hamburger-burger-with-beef-red-onion-tomato-fried-bacon.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="details"></div>
+              </div>
+            </div>
+            <div class="first_row row-2" id="dessert_part">
+              <div class="food_img col_1">
+                <div class="image">
+                  <img src="/images/dessert1.jpg" alt="" />
+                  />
+                </div>
+                <div class="details"></div>
+              </div>
+              <div class="food_img col_2">
+                <div class="image">
+                  <img src="/images/dessert2.jpg" alt="" />
+                </div>
+                <div class="details"></div>
+              </div>
+              <div class="food_img col_3">
+                <div class="image">
+                  <img src="/images/dessert3.jpg" alt="" />
+                </div>
+                <div class="details"></div>
+              </div>
+              <div class="food_img col_4">
+                <div class="image">
+                  <img src="/images/dessert4.jpg" alt="" />
+                </div>
+                <div class="details"></div>
+              </div>
+              <div class="food_img col_5">
+                <div class="image">
+                  <img src="/images/dessert5.jpg" alt="" />
+                </div>
+                <div class="details"></div>
+              </div>
+            </div>
+            <div class="first_row row-3" id="most_popular">
+              <div class="food_img col_1">
+                <div class="image">
+                  <img src="/images/p1 (1).jpg" alt="" />
+                  />
+                </div>
+                <div class="details"></div>
+              </div>
+              <div class="food_img col_2">
+                <div class="image">
+                  <img src="/images/p1 (2).jpg" alt="" />
+                </div>
+                <div class="details"></div>
+              </div>
+              <div class="food_img col_3">
+                <div class="image">
+                  <img src="/images/p1 (3).jpg" alt="" />
+                </div>
+                <div class="details"></div>
+              </div>
+              <div class="food_img col_4">
+                <div class="image">
+                  <img src="/images/p1 (4).jpg" alt="" />
+                </div>
+                <div class="details"></div>
+              </div>
+              <div class="food_img col_5">
+                <div class="image">
+                  <img src="/images/roast-chicken-1-22.jpg" alt="" />
+                </div>
+                <div class="details"></div>
+              </div>
+            </div>
+            <div class="first_row row-4" id="salad_part">
+              <div class="food_img col_1">
+                <div class="image">
+                  <img src="/images/salad1.jpg" alt="" />
+                  />
+                </div>
+                <div class="details"></div>
+              </div>
+              <div class="food_img col_2">
+                <div class="image">
+                  <img src="/images/sadad2.jpg" alt="" />
+                </div>
+                <div class="details"></div>
+              </div>
+              <div class="food_img col_3">
+                <div class="image">
+                  <img src="/images/salad3.jpg" alt="" />
+                </div>
+                <div class="details"></div>
+              </div>
+              <div class="food_img col_4">
+                <div class="image">
+                  <img src="/images/salad4.jpg" alt="" />
+                </div>
+                <div class="details"></div>
+              </div>
+              <div class="food_img col_5">
+                <div class="image"><img src="/images/salad5.jpg" alt="" /></div>
+                <div class="details"></div>
+              </div>
+            </div>
+            <div class="first_row row-5" id="drinks_part">
+              <div class="food_img col_1">
+                <div class="image">
+                  <img src="/images/d1.jpg" alt="" />
+                </div>
+                <div class="details"></div>
+              </div>
+              <div class="food_img col_2">
+                <div class="image">
+                  <img src="/images/d2.jpg" alt="" />
+                </div>
+                <div class="details"></div>
+              </div>
+              <div class="food_img col_3">
+                <div class="image">
+                  <img src="/images/d3.jpg" alt="" />
+                </div>
+                <div class="details"></div>
+              </div>
+              <div class="food_img col_4">
+                <div class="image">
+                  <img src="/images/d4.jpg" alt="" />
+                </div>
+                <div class="details"></div>
+              </div>
+              <div class="food_img col_5">
+                <div class="image"><img src="/images/d5.jpg" alt="" /></div>
+                <div class="details"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
